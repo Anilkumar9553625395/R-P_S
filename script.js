@@ -34,7 +34,7 @@ function playgame(choice){
 
         playerdisplay.textContent="PLAYER: "+choice;
         computerdisplay.textContent="COMPUTER: "+computer;
-        resultdisplay.textContent="YOU LOOSE";
+        resultdisplay.textContent="YOU LOSE";
 
     }
 
@@ -43,14 +43,14 @@ function playgame(choice){
 
         playerdisplay.textContent="PLAYER: "+choice;
         computerdisplay.textContent="COMPUTER: "+computer;
-        resultdisplay.textContent="YOU LOOSE";
+        resultdisplay.textContent="YOU LOSE";
 
     }
     if(choice==="paper"&&computer==="scissor"){
 
         playerdisplay.textContent="PLAYER: "+choice;
         computerdisplay.textContent="COMPUTER: "+computer;
-        resultdisplay.textContent="YOU LOOSE";
+        resultdisplay.textContent="YOU LOSE";
 
     }
     if(choice==="rock"&&computer==="scissor"){
